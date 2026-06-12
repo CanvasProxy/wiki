@@ -1,37 +1,22 @@
-site_name: FAQ и База знаний
-site_url: https://wiki.canvas-proxy.com
-
+site_name: Canvas Proxy
+site_description: База знаний сервиса Canvas Proxy
 theme:
   name: material
-  language: ru
+  logo: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12.svg
+  favicon: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
   palette:
-    # Настройка для светлой темы
     - scheme: default
-      primary: deep orange
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Темная тема
-    # Настройка для темной темы (автоматическое переключение)
-    - scheme: slate
-      primary: deep orange
-      accent: deep orange
-      toggle:
-        icon: material/brightness-4
-        name: Светлая тема
-extra:
-  generator: false
-
-# Включаем поддержку раскрывающихся блоков для красивого FAQ
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
+      primary: custom
+      accent: custom
 nav:
-  - Главная: index.md
+  - 🏠 Главная: index.md
   - 📦 Общие вопросы: general.md
-  - 🛡 Обход блокировок: whitelist.md
+  - 🛡 Белые списки: whitelist.md
   - ⚙️ Подключение: connection.md
   - 🛠 Частые проблемы: troubleshooting.md
-  - 🎁 Партнерство: referral.md
+  - 🎁 Партнерство: partnership.md
