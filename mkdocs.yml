@@ -3,9 +3,25 @@ site_url: https://wiki.canvas-proxy.com
 
 theme:
   name: material
+  language: ru # Полный перевод интерфейса
+  custom_dir: overrides # Подключение папки для удаления копирайта
+  
+  # Настройка шрифтов (подтягиваются из Google Fonts)
+  font:
+    text: Roboto
+    code: Roboto Mono
+    
+  # Настройка цветовой схемы
+  palette:
+    primary: black # Основной цвет шапки
+    accent: indigo # Цвет ссылок и активных элементов
+    
   features:
-    - navigation.tabs # Делает красивые верхние вкладки
+    - navigation.tabs # Вкладки сверху
+    - navigation.top # Кнопка "Наверх"
+    - search.suggest # Подсказки при поиске
 
+# Твое меню (оставь свои пути к файлам)
 nav:
   - Главная: index.md
   - Оплата и доставка: delivery.md
