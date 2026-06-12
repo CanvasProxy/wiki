@@ -3,28 +3,24 @@ site_url: https://wiki.canvas-proxy.com
 
 theme:
   name: material
-  language: ru # Полный перевод интерфейса
-  custom_dir: overrides # Подключение папки для удаления копирайта
+  language: ru
   
-  # Настройка шрифтов (подтягиваются из Google Fonts)
   font:
     text: Roboto
     code: Roboto Mono
     
-  # Настройка цветовой схемы
   palette:
-    primary: black # Основной цвет шапки
-    accent: indigo # Цвет ссылок и активных элементов
+    primary: black
+    accent: indigo
     
   features:
-    - navigation.tabs # Вкладки сверху
-    - navigation.top # Кнопка "Наверх"
-    - search.suggest # Подсказки при поиске
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
 
-# Твое меню (оставь свои пути к файлам)
+# Этот блок убирает надпись "Made with Material for MkDocs"
+extra:
+  generator: false
+
 nav:
   - Главная: index.md
-  - Оплата и доставка: delivery.md
-  - Решение проблем:
-    - Ошибка входа: errors/login.md
-    - Не грузится: errors/loading.md
