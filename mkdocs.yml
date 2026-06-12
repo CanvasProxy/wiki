@@ -4,20 +4,21 @@ site_url: https://wiki.canvas-proxy.com
 theme:
   name: material
   language: ru
-  
-  font:
-    text: Roboto
-    code: Roboto Mono
-    
   palette:
-    primary: black
-    accent: indigo
-    
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-
+    # Настройка для светлой темы
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Темная тема
+    # Настройка для темной темы (автоматическое переключение)
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
 extra:
   generator: false
 
