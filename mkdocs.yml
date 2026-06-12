@@ -18,9 +18,19 @@ theme:
     - navigation.top
     - search.suggest
 
-# Этот блок убирает надпись "Made with Material for MkDocs"
 extra:
   generator: false
 
+# Включаем поддержку раскрывающихся блоков для красивого FAQ
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Главная: index.md
+  - 📦 Общие вопросы: general.md
+  - 🛡 Обход блокировок: whitelist.md
+  - ⚙️ Подключение: connection.md
+  - 🛠 Частые проблемы: troubleshooting.md
+  - 🎁 Партнерство: referral.md
