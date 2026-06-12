@@ -1,0 +1,14 @@
+site_name: FAQ и База знаний
+site_url: https://твой-домен.com
+
+theme:
+  name: material
+  features:
+    - navigation.tabs # Делает красивые верхние вкладки
+
+nav:
+  - Главная: index.md
+  - Оплата и доставка: delivery.md
+  - Решение проблем:
+    - Ошибка входа: errors/login.md
+    - Не грузится: errors/loading.md
