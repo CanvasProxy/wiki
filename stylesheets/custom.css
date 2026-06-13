@@ -1,0 +1,50 @@
+:root {
+  /* Твой фирменный оранжевый цвет CanvasProxy */
+  --md-primary-fg-color: #F97316;
+  --md-primary-fg-color--light: #FB923C;
+  --md-primary-fg-color--dark: #C2410C;
+  --md-accent-fg-color: #F97316;
+  
+  /* Глобальные закругления (modern UI) */
+  --md-border-radius: 12px;
+}
+
+/* Стилизация раскрывающихся вопросов (аккордеонов) под карточки */
+.md-typeset details {
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset details:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+
+/* Убираем старую боковую линию у аккордеонов */
+.md-typeset details { border-left-width: 1px; }
+
+/* Дизайн заголовка вопроса */
+.md-typeset summary {
+  font-weight: 600;
+  padding: 1.2rem 1.5rem;
+}
+
+/* Дизайн кнопок */
+.md-typeset .md-button {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* Чистый фон для сайта (чуть сероватый, чтобы белые карточки выделялись) */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f9fafb;
+}
+[data-md-color-scheme="default"] .md-typeset details {
+  background-color: #ffffff;
+}
