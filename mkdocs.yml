@@ -13,6 +13,8 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+    - navigation.instant
+    - navigation.instant.prefetch
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
