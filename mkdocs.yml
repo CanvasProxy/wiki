@@ -1,37 +1,41 @@
-site_name: FAQ и База знаний
-site_url: https://wiki.canvas-proxy.com
-
+site_name: Canvas Proxy
+site_description: Официальная документация
 theme:
   name: material
-  language: ru
+  logo: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12.svg
+  favicon: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12.svg
   font:
-    text: Inter # Современный шрифт без засечек
-    code: JetBrains Mono # Актуальный шрифт для кода
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.tabs
-    - navigation.top
+    - navigation.sections
     - search.suggest
-    - content.action.edit
-    - content.code.copy
+    - search.highlight
+    - toc.integrate
   palette:
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Темная тема
-    - scheme: slate
-      primary: custom
-      accent: custom
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: white
       toggle:
         icon: material/brightness-4
-        name: Светлая тема
-
-extra_css:
-  - stylesheets/custom.css # Подключение кастомного дизайна
-
-extra:
-  generator: false
-
+        name: Переключить на светлую тему
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: black
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на темную тему
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
 nav:
   - Главная: index.md
+  - Общие вопросы: general.md
+  - Белые списки: whitelist.md
+  - Подключение: connection.md
+  - Решение проблем: troubleshooting.md
+  - Партнерство: partnership.md
