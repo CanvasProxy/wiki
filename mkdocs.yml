@@ -39,3 +39,5 @@ nav:
   - Подключение: connection.md
   - Решение проблем: troubleshooting.md
   - Партнерство: partnership.md
+extra:
+  generator: false
