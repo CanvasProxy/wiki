@@ -1,0 +1,53 @@
+site_name: Canvas Proxy Wiki
+copyright: "&copy; 2026 Canvas Proxy | <a href='https://t.me/CanvasProxyBot' target='_blank'>Бот</a>, <a href='https://t.me/CanvasProxy' target='_blank'>Канал</a>, <a href='https://t.me/CanvasProxyHelp' target='_blank'>Поддержка</a>"
+site_description: Официальная документация
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  language: ru
+  logo: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12%201.svg
+  favicon: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12%201.svg
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - navigation.instant
+    - navigation.instant.prefetch
+  palette:
+    # Темная тема
+      scheme: slate
+      primary: black        # Цвет шапки (попробуй indigo, blue grey, deep purple)
+      accent: deep orange   # Цвет активных элементов (попробуй orange, cyan, teal)
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - md_in_html
+  - toc:
+      permalink: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Главная: index.md
+  - Общие вопросы: general.md
+  - Белые списки: whitelist.md
+  - Подключение: connection.md
+  - Решение проблем: troubleshooting.md
+
+extra:
+  generator: false
+
+extra_javascript:
+  - javascripts/extra.js
+plugins:
+  - search
+  - glightbox
