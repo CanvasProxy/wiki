@@ -1,6 +1,6 @@
 site_name: Canvas Proxy Wiki
 copyright: "&copy; 2026 Canvas Proxy | <a href='https://t.me/CanvasProxyBot' target='_blank'>Бот</a>, <a href='https://t.me/CanvasProxy' target='_blank'>Канал</a>, <a href='https://t.me/CanvasProxyHelp' target='_blank'>Поддержка</a>"
-site_description: Официальная документация
+site_description: База знаний
 extra_css:
   - stylesheets/extra.css
 theme:
