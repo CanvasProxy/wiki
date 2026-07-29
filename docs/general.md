@@ -20,12 +20,11 @@
 
 ---
 
-### Какие приложения можно использовать для подключения?
+### Какие приложения можно использовать для подключения? {: #apps }
 
 Для подключения мы рекомендуем использовать v2RayTun, Happ или incy. Выберите ваше устройство, кликнув на кнопку ниже.
 
 ??? Info "Android / Android TV"
-    - v2RayTun: [Кликните](https://play.google.com/store/apps/details?id=com.v2raytun.android)
     - incy: [Кликните](https://play.google.com/store/apps/details?id=llc.itdev.incy)
     - Happ: [Кликните](https://play.google.com/store/apps/details?id=com.happproxy)
 
@@ -34,12 +33,10 @@
         - incy: [Кликните](https://apps.apple.com/ru/app/incy/id6756943388)
 
     ??? Success "Регион аккаунта не РФ"
-        - v2RayTun: [Кликните](https://apps.apple.com/us/app/v2raytun/id6476628951)
         - incy: [Кликните](https://apps.apple.com/us/app/incy/id6756943388)
         - Happ: [Кликните](https://apps.apple.com/us/app/happ-proxy-utility/id6504287215)
 
 ??? Info "Windows"
-    - v2RayTun: [Кликните](https://storage.v2raytun.com/v2RayTun_Setup.exe)
     - incy: [Кликните](https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.3.0/incy-windows-setup.exe)
     - Happ: [Кликните](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe)
 
