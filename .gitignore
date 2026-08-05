@@ -1,2 +1,10 @@
 
-.idea/
+# Generated MkDocs output
+/site/
+
+# IDE settings
+/.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]

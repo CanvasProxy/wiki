@@ -1,4 +1,5 @@
 site_name: Canvas Proxy Wiki
+site_url: https://wiki.canvas-proxy.com/
 copyright: "&copy; 2026 Canvas Proxy | <a href='https://t.me/CanvasProxyBot' target='_blank'>Бот</a>, <a href='https://t.me/CanvasProxy' target='_blank'>Канал</a>, <a href='https://t.me/CanvasProxyHelp' target='_blank'>Поддержка</a>"
 site_description: База знаний
 extra_css:
@@ -29,7 +30,6 @@ markdown_extensions:
   - md_in_html
   - admonition
   - pymdownx.details
-  - md_in_html
   - toc:
       permalink: false
   - pymdownx.emoji:
