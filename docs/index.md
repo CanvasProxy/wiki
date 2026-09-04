@@ -32,7 +32,7 @@ hide:
 
     ---
 
-    Инструкции по настройке VPN на Android, iOS, Windows и других устройствах.
+    Инструкции по настройке VPN и Телеграм-прокси, включая WEB-прокси.
 
     [:octicons-arrow-right-24: Подробнее](connection.md)
 
