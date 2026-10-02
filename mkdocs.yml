@@ -6,6 +6,7 @@ extra_css:
   - stylesheets/extra.css
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   logo: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12%201.svg
   favicon: https://raw.githubusercontent.com/CanvasProxy/assets/main/Logotipe-Canvas-Proxy-12%201.svg
