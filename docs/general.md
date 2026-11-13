@@ -29,7 +29,7 @@ WEB-прокси добавляется в приложение Telegram, а н�
 прокси или VPN.
 
 Для звонков в Telegram и обхода белых списков используйте VPN. Инструкция по подключению прокси:
-[Кликните](connection.md#share-tg-proxy).
+[Кликните](connection.md#tg-proxy-connect).
 
 ---
 
