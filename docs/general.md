@@ -63,14 +63,15 @@ WEB-прокси добавляется в приложение Telegram, а н�
 
 
 ??? Info "Android / Android TV"
-    - Karing (APK): [Скачать](https://github.com/KaringX/karing/releases/latest)
-    - incy: [Кликните](https://play.google.com/store/apps/details?id=llc.itdev.incy)
-    - Happ: [Кликните](https://play.google.com/store/apps/details?id=com.happproxy)
-    - Если Google Play недоступен, скачайте [официальный APK Happ с GitHub](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk).
+    Если приложение недоступно в Google Play, скачайте официальный APK по ссылке рядом с ним.
+
+    - Karing: [APK для Android](https://github.com/KaringX/karing/releases/download/v1.2.26.2934/karing_1.2.26.2934_android_arm.apk) · [APK для Android TV (ARMv7)](https://github.com/KaringX/karing/releases/download/v1.2.26.2934/karing_1.2.26.2934_android_armeabi-v7a.apk) · [Все релизы](https://github.com/KaringX/karing/releases/latest)
+    - incy: [Google Play](https://play.google.com/store/apps/details?id=llc.itdev.incy) · [APK с GitHub](https://github.com/INCY-DEV/incy-platforms/releases/download/latest/Incy.apk)
+    - Happ: [Google Play](https://play.google.com/store/apps/details?id=com.happproxy) · [APK с GitHub](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)
 
     ??? Warning "Huawei (установка напрямую из APK, без GBox)"
         - Happ: [Кликните](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)
-        - incy: [Кликните](https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk)
+        - incy: [Кликните](https://github.com/INCY-DEV/incy-platforms/releases/download/latest/Incy.apk)
 
         На устройствах Huawei устанавливайте приложение непосредственно из скачанного APK-файла. Версия, установленная
         или запущенная через GBox, для подключения не подходит.
