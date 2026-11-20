@@ -66,6 +66,7 @@ WEB-прокси добавляется в приложение Telegram, а н�
     - Karing (APK): [Скачать](https://github.com/KaringX/karing/releases/latest)
     - incy: [Кликните](https://play.google.com/store/apps/details?id=llc.itdev.incy)
     - Happ: [Кликните](https://play.google.com/store/apps/details?id=com.happproxy)
+    - Если Google Play недоступен, скачайте [официальный APK Happ с GitHub](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk).
 
     ??? Warning "Huawei (установка напрямую из APK, без GBox)"
         - Happ: [Кликните](https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk)
