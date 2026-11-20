@@ -17,7 +17,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - search.suggest
-    - search.highlight
     - toc.integrate
     - navigation.instant
     - navigation.instant.prefetch
